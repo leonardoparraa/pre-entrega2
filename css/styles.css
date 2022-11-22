@@ -1,0 +1,533 @@
+/*reset*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* estilos generales */
+
+body{
+    background-image: url(../img/foto-fondo.jpg);
+}
+
+h1{
+    color: #b1ccc4 ;
+    text-shadow: 2px 2px 4px #e1e6d3;
+}
+
+h2{
+    color: #b1ccc4;  
+    text-shadow: 1px 1px 3px #e1e6d3;
+}
+
+.h2-catalogo{
+    color: #b1ccc4;  
+    text-shadow: 1px 1px 3px #e1e6d3;
+    margin: 3rem;
+    text-align: center;
+    font-size: 3rem;
+}
+
+/* estilos de header */
+
+header{
+    display: none;
+}
+
+/* navbar */
+
+.navbar{
+    width: 100%;
+}
+
+/* estilos del body */
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main h1 span{
+    display: block;
+}
+
+main h2 span{
+    display: block;
+    padding-left: 1.2rem;
+}
+
+main .tittle{
+    font-size: 3rem;
+    animation-name: tittle-color;
+}
+
+main div a{
+    text-decoration: none;
+    color: #b1ccc4;
+    text-shadow: 2px 2px 4px black;
+}
+
+main div p{
+    padding-top: 4rem;
+    text-align: center;
+    font-size: 2.5rem;
+
+}
+
+
+/*estilos de las cajas*/
+
+
+.contenedor{
+    width: 40%;
+    height: 100%;
+    margin-top: 2rem;
+}
+
+.caja1{
+    width: 100%;
+    height: 12rem;
+    border: 1px solid black;
+    border-radius: 3rem;
+    box-shadow: 2px 2px 8px black;
+    background: rgba(0, 0, 0, 0.519);
+} 
+
+.caja2{
+    width: 100%;
+    height: 12rem;
+    margin-top: 1rem;
+    border: 1px solid black;
+    border-radius: 3rem;
+    box-shadow: 2px 2px 8px black;
+    background: rgba(0, 0, 0, 0.519);
+}
+
+
+.caja3{
+    width: 100%;
+    height: 12rem;
+    margin-top: 1rem;
+    border: 1px solid black;
+    border-radius: 3rem;
+    box-shadow: 2px 2px 8px black;
+    background: rgba(0, 0, 0, 0.519);
+}
+
+
+.caja4{
+    width: 100%;
+    height: 12rem;
+    margin-top: 1rem;
+    border: 1px solid black;
+    border-radius: 3rem;
+    box-shadow: 2px 2px 8px black;
+    background: rgba(0, 0, 0, 0.519);
+}
+
+
+.caja5{
+    width: 100%;
+    height: 12rem;
+    margin-top: 1rem;
+    border: 1px solid black;
+    border-radius: 3rem;
+    box-shadow: 2px 2px 8px black;
+    background: rgba(0, 0, 0, 0.519);
+}
+
+/* catálogo */
+
+.caja-catalogo1{
+    width: 100%;
+    height: 12rem;
+    border: 1px solid black;
+    border-radius: 3rem;
+    box-shadow: 2px 2px 8px black;
+    background: rgba(0, 0, 0, 0.519);
+}
+
+.caja-catalogo2{
+    background-image: url(../img/fototp2.png);
+    width: 100%;
+    height: 12rem;
+    margin-top: 2rem;
+    border: 1px solid black;
+    border-radius: 3rem;
+    box-shadow: 2px 2px 8px black;
+}
+
+.caja-catalogo3{
+    background-image: url(../img/fototp3.png);
+    width: 100%;
+    height: 12rem;
+    margin-top: 2rem;
+    border: 1px solid black;
+    border-radius: 3rem;
+    box-shadow: 2px 2px 8px black;
+}
+
+.caja-catalogo4{
+    background-image: url(../img/fototp4.png);
+    width: 100%;
+    height: 12rem;
+    margin-top: 2rem;
+    border: 1px solid black;
+    border-radius: 3rem;
+    box-shadow: 2px 2px 8px black;
+}
+
+.caja-catalogo4{
+    background-image: url(../img/fototp5.png);
+    width: 100%;
+    height: 12rem;
+    margin-top: 2rem;
+    border: 1px solid black;
+    border-radius: 3rem;
+    box-shadow: 2px 2px 8px black;
+}
+
+.caja-catalogo5{
+    background-image: url(../img/fototp6.png);
+    width: 100%;
+    height: 12rem;
+    margin-top: 2rem;
+    border: 1px solid black;
+    border-radius: 3rem;
+    box-shadow: 2px 2px 8px black;
+}
+
+main .caja-catalogo1 p{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.parrafo-pequeño{
+    font-size: 1.5rem;
+    color: #b1ccc4;
+    text-shadow: 1px 1px 5px black;
+    text-align: center;
+}
+
+/* estilos de section */
+
+section{
+    display: none;
+}
+
+/*Mas info*/
+
+main p{
+    color: #b1ccc4;
+}
+
+h3{
+    margin: 1.5rem;
+    font-size: 2rem;
+    color: #d8dec3;
+    text-shadow: 2px 2px 6px black;
+}
+
+
+
+.boton-inicio{
+    margin-left: 46%;
+    background-color: #b1ccc493;
+    width: 3.5rem;
+    height: 1.3rem;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 2rem;
+}
+
+.boton-inicio a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.main-catalogo{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50% ;
+    gap: 1rem 1rem;
+
+}
+
+.main-catalogo div{
+    background-color: rgba(0, 0, 0, 0.368);
+    border: 1px solid black;
+    border-radius: 3rem;
+    height: 30rem;
+}
+
+/* ofertas */
+.content-of{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-items: center;
+}
+.caja5-of{
+    background-color: rgba(0, 0, 0, 0.585);
+    width: 100%;
+    height: 12rem;
+    margin-top: 2rem;
+    border: 1px solid black;
+    border-radius: 3rem;
+    box-shadow: 2px 2px 8px black;
+}
+.caja6-of{
+    background-color: rgba(0, 0, 0, 0.585);
+    width: 100%;
+    height: 12rem;
+    margin-top: 2rem;
+    border: 1px solid black;
+    border-radius: 3rem;
+    box-shadow: 2px 2px 8px black;
+    margin-left: 90%;
+}
+.caja7-of{
+    background-color: rgba(0, 0, 0, 0.585);
+    width: 100%;
+    height: 12rem;
+    margin-top: 2rem;
+    border: 1px solid black;
+    border-radius: 3rem;
+    box-shadow: 2px 2px 8px black;
+}
+
+.p-of{
+    color: #b1ccc4;
+    text-shadow: 1px 1px 4px black;
+}
+.content-of div p{
+    font-size: 2rem;
+    padding-top: 4.5rem;
+    text-align: center;
+    color: #b1ccc4;
+    text-shadow: 1px 1px 4px black;
+}
+
+/* Redes */
+
+
+
+.p-redes{
+    color: #b1ccc4;
+    text-shadow: 1px 1px 4px black;
+}
+
+.whatsapp{
+    width: 30%;
+    background-color: #19201ea0;
+    height: 12rem;
+    margin-top: 2rem;
+    border: 1px solid black;
+    border-radius: 3rem;
+    box-shadow: 2px 2px 8px black;
+}
+
+.whatsapp p{
+    font-size: 1.5rem;
+    padding-top: 15%;
+    text-decoration: none;
+    text-align: center;
+    color: #b1ccc4;
+    text-shadow: 1px 1px 4px black;
+}
+
+.twitter{
+    margin-left: 10%;
+    width: 30%;
+    background-color: #19201ea0;
+    height: 12rem;
+    margin-top: 2rem;
+    border: 1px solid black;
+    border-radius: 3rem;
+    box-shadow: 2px 2px 8px black;
+}
+
+.twitter p{
+    font-size: 1.5rem;
+    padding-top: 15%;
+    text-decoration: none;
+    text-align: center;
+    color: #b1ccc4;
+    text-shadow: 1px 1px 4px black;
+}
+
+.instagram{
+    width: 30%;
+    background-color: #19201ea0;
+    height: 12rem;
+    margin-top: 2rem;
+    border: 1px solid black;
+    border-radius: 3rem;
+    box-shadow: 2px 2px 8px black;
+}
+
+.instagram p{
+    font-size: 1.5rem;
+    padding-top: 15%;
+    text-decoration: none;
+    text-align: center;
+    color: #b1ccc4;
+    text-shadow: 1px 1px 4px black;
+}
+
+.youtube{
+    margin-left: 10%;
+    width: 30%;
+    background-color: #19201ea0;
+    height: 12rem;
+    margin-top: 2rem;
+    border: 1px solid black;
+    border-radius: 3rem;
+    box-shadow: 2px 2px 8px black;
+}
+
+.youtube p{
+    font-size: 1.5rem;
+    padding-top: 15%;
+    text-decoration: none;
+    text-align: center;
+    color: #b1ccc4;
+    text-shadow: 1px 1px 4px black;
+}
+
+
+/* media  query */
+
+@media screen and (min-width:600px){
+    /* estilos de header */
+    header{
+        display: block;
+        display: flex;
+        justify-content:end;
+    }
+
+    .contenedor{
+        width: 30%;
+        height: 100%;
+        margin-top: 2rem;
+    }
+
+    .caja1{
+        width: 100%;
+        height: 12rem;
+        border: 1px solid black;
+        border-radius: 3rem;
+        box-shadow: 2px 2px 8px black;
+        background: rgba(0, 0, 0, 0.519);
+    } 
+    
+    .caja1:hover{
+        color: #d8dec3;
+        transform: scale(0.95, 0.95);
+        border-radius: 3rem;
+        transition: all 700ms;
+        box-shadow: 4px 4px 8px #b1ccc4;
+        text-shadow: 3px 3px 6px #b1ccc4;
+    }
+    
+    
+    .caja2{
+        width: 100%;
+        height: 12rem;
+        margin-top: 1rem;
+        border: 1px solid black;
+        border-radius: 3rem;
+        box-shadow: 2px 2px 8px black;
+        background: rgba(0, 0, 0, 0.519);
+    }
+    
+    .caja2:hover{
+        color: #d8dec3;
+        transform: scale(0.95, 0.95);
+        border-radius: 3rem;
+        transition: all 700ms;
+        box-shadow: 4px 4px 8px #b1ccc4;
+        text-shadow: 3px 3px 6px #b1ccc4;
+    }
+    
+    .caja3{
+        width: 100%;
+        height: 12rem;
+        margin-top: 1rem;
+        border: 1px solid black;
+        border-radius: 3rem;
+        box-shadow: 2px 2px 8px black;
+        background: rgba(0, 0, 0, 0.519);
+    }
+    
+    .caja3:hover{
+        color: #d8dec3;
+        transform: scale(0.95, 0.95);
+        border-radius: 3rem;
+        transition: all 700ms;
+        box-shadow: 4px 4px 8px #b1ccc4;
+        text-shadow: 3px 3px 6px #b1ccc4;
+    }
+    
+    .caja4{
+        width: 100%;
+        height: 12rem;
+        margin-top: 1rem;
+        border: 1px solid black;
+        border-radius: 3rem;
+        box-shadow: 2px 2px 8px black;
+        background: rgba(0, 0, 0, 0.519);
+    }
+    
+    .caja4:hover{
+        color: #d8dec3;
+        transform: scale(0.95, 0.95);
+        border-radius: 3rem;
+        transition: all 700ms;
+        box-shadow: 4px 4px 8px #b1ccc4;
+        text-shadow: 3px 3px 6px #b1ccc4;
+    }
+    
+    .caja5{
+        width: 100%;
+        height: 12rem;
+        margin-top: 1rem;
+        border: 1px solid black;
+        border-radius: 3rem;
+        box-shadow: 2px 2px 8px black;
+        background: rgba(0, 0, 0, 0.519);
+    }
+    
+    .caja5:hover{
+        color: #d8dec3;
+        transform: scale(0.95, 0.95);
+        border-radius: 3rem;
+        transition: all 700ms;
+        box-shadow: 4px 4px 8px #b1ccc4;
+        text-shadow: 3px 3px 6px #b1ccc4;
+    }
+
+    /* catalogo */
+
+    .main-catalogo div{
+        background-color: rgba(0, 0, 0, 0.368);
+        border: 1px solid black;
+        border-radius: 3rem;
+        height: 20rem;
+    }
+
+    .boton-inicio{
+        margin-left: 48.5%;
+    }
+}
+
+footer{
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #b1ccc4;
+}
+
+
