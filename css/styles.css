@@ -31,9 +31,6 @@ h2{
 
 /* estilos de header */
 
-header{
-    display: none;
-}
 
 /* navbar */
 
@@ -219,6 +216,13 @@ section{
 
 /*Mas info*/
 
+.parrafo-pequeño-info{
+    font-size: 1.2rem;
+    color: #b1ccc4;
+    text-shadow: 1px 1px 5px black;
+    text-align: center;
+}
+
 main p{
     color: #b1ccc4;
 }
@@ -230,28 +234,10 @@ h3{
     text-shadow: 2px 2px 6px black;
 }
 
-
-
-.boton-inicio{
-    margin-left: 46%;
-    background-color: #b1ccc493;
-    width: 3.5rem;
-    height: 1.3rem;
-    text-align: center;
-    border: 1px solid black;
-    border-radius: 2rem;
-}
-
-.boton-inicio a{
-    text-decoration: none;
-    color: black;
-    text-align: center;
-}
-
 .main-catalogo{
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50% ;
+    grid-template-columns: 49% 49%;
+    grid-template-rows: 55% 50% ;
     gap: 1rem 1rem;
 
 }
@@ -262,6 +248,8 @@ h3{
     border-radius: 3rem;
     height: 30rem;
 }
+
+
 
 /* ofertas */
 .content-of{
@@ -414,7 +402,7 @@ h3{
         height: 100%;
         margin-top: 2rem;
     }
-
+    /* index */
     .caja1{
         width: 100%;
         height: 12rem;
@@ -519,8 +507,11 @@ h3{
         height: 20rem;
     }
 
-    .boton-inicio{
-        margin-left: 48.5%;
+
+    /* mas info */
+
+    .parrafo-pequeño-info{
+        font-size: 1.5rem;
     }
 }
 
